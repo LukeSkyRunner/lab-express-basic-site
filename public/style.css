@@ -14,12 +14,12 @@ nav {
   display: flex;	
 	justify-content: space-between;
   align-items: center;
-  margin-bottom: 18px;
+  background-color: #e5e5e5;
 }
 
 nav img {
-  height: 132;
-  width: 12%;
+  height: 85%;
+  width: 20%;
   margin-left: 70px
 }
 
@@ -36,18 +36,16 @@ nav ul li {
 
 /* Header Image */
 
-header {
-  background-image: url("./../public/background.jpg");
+.home {
+  background-image: url("/background.jpg");
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: 100% 80%;
   background-size: cover;
-  height: 753px;
+  height: 697px;
   width: 100%;
-  padding-top: 30px;
-  position: relative
 }
 
-header h1 {
+.home h1 {
   color: white;
   text-align: center;
   font-size: 5em;
@@ -55,7 +53,7 @@ header h1 {
   padding-top: 25px
 }
 
-header h3 {
+.home h3 {
   color: white;
   text-align: center;
   font-weight: lighter;
