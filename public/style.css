@@ -33,6 +33,15 @@ nav ul li {
   list-style-type: none;
 }
 
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: gray;
+}
+
 
 /* Header Image */
 
@@ -58,4 +67,26 @@ nav ul li {
   text-align: center;
   font-weight: lighter;
   margin-top: 30px
+}
+
+/* About Page */
+
+.about {
+  background-image: url("/background-about.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 80%;
+  background-size: cover;
+  height: 697px;
+  width: 100%;
+}
+
+/* works Page */
+
+.works {
+  background-image: url("/background-works.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 80%;
+  background-size: cover;
+  height: 697px;
+  width: 100%;
 }
